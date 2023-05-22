@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form>
+            <h1>CHECKOUT PAGE</h1>
+            <h4>Laptop ThinkBook 16 Gen 4</h4>
+            <img src="laptop.jpg" alt="Laptop image" />
+            <h6 id="addons">Add-ons</h6>
+            <span class="choice-addons"
+                ><input type="checkbox" name="item" value="Mouse" />Mouse</span
+            >
+            <span class="choice-addons"
+                ><input
+                    type="checkbox"
+                    name="item"
+                    value="Speaker"
+                />Speaker</span
+            >
+            <span class="choice-addons"
+                ><input
+                    type="checkbox"
+                    name="ram"
+                    value="External Hard Disk"
+                />External Hard Disk</span
+            >
+            <div class="purchase-details">
+                <h6>BILLING DETAILS</h6>
+                <div class="input-group">
+                    <label>Receiver Name</label>
+                    <input type="text" />
+                </div>
+                <div class="input-group">
+                    <label>Phone Number</label>
+                    <input type="text" />
+                </div>
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="text" />
+                </div>
+                <div class="input-group">
+                    <label>Address</label>
+                    <textarea></textarea>
+                </div>
+                <h6>PAYMENT DETAILS</h6>
+                <div class="input-group">
+                    <div>
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="online"
+                        />Online Banking
+                    </div>
+                    <div>
+                        <input type="radio" name="payment" value="cash" />Cash
+                        On Delivery
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Shipping option</label>
+                    <select>
+                        <option value="">Choose shipping</option>
+                        <option value="JnT">JnT</option>
+                        <option value="Pos Malaysia">Pos Malaysia</option>
+                        <option value="Ninja Van">Ninja Van</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>Shipping date</label>
+                    <input type="date" />
+                </div>
+                <h6>CONFIRMATION</h6>
+                <input type="checkbox" />Yes, I read and accept the Terms of
+                Service.
+            </div>
+            <input type="reset" value="Cancel" />
+            <input type="submit" value="Proceed to Payment" />
+        </form>
+    </body>
+</html>
